@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.coverage
+
+# Production
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Foundry files
+cache_forge/
+out_forge/
+
+# OpenZeppelin
+.openzeppelin/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled contracts
+*.bin
+*.abi
+
+# Test files
+test-results/
+.test-env
+
+# Personal notes (可选)
+personal-notes/
+drafts/
